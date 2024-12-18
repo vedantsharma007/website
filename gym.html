@@ -1,112 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>  
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--( ICON LINK )-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
-
-    
-    <!--<link stylesheet style.cssand bootstrap /-->
-    <title>FITCLUB </title>
-  </head>
-  <body>
-        <nav>
-        
-        <!-- Create the navigation bar with the following list items
-            Home
-            Program
-            Service
-            About
-            Community</a></li>
-          </ul>
-          <button class="btn">Join Now</button>
-        </nav>
-    -->
-        <header class="section__container header__container">
-          <div class="header__content">
-            <span class="bg__blur"></span>
-            <span class="bg__blur header__blur"></span>
-       <!--
-       
-       Complete the class by adding hero component image as shown in image     
-       
-       -->         <div class="header__image">
-            <img src="Images/header.png" alt="header" />
-          </div>
-        </header>
-    <!--
-    create cards to promote 
-
-    "EXPLORE OUR PROGRAM
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNESS FREAK GYM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero-section">
+    <nav class="navbar">
+      <div class="logo">FITNESS FREAK GYM</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-image">
       
-      Strength
-      Physical Fitness
-      Fat Lose
-      Weight Gain
+    </div>
+    <div class="hero-content">
+      <h1>Your Fitness Journey Starts Here</h1>
+      <p>Join the best gym in town to achieve your fitness goals with expert trainers and a vibrant community.</p>
+      <a href="#services" class="btn">Get Started</a>
+    </div>
+  </header>
 
-        -->
-    
-    <!--OUR PRICING PLAN<
-                <h4>Basic Plan</h4>
-                <h3>₹1999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p>
-                <h4>Weekly Plan</h4>
-                <h3>₹3999</h3>
-             
-                PRO Gyms
-                  Smart workout plan
-                  At home workouts
-                <h4>Monthly Plan</h4>
-                <h3>₹ 5999</h3>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  ELITE Gyms & Classes
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  PRO Gyms
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Smart workout plan
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  At home workouts
-                </p>
-                <p>
-                  <i class="ri-checkbox-circle-line"></i>
-                  Personal Training
-                </p>
-              </div>
-            
-    -->
-       !<!-- <section class="review">
-              <h4>MEMBER REVIEW</h4>
-              <p>
-                What truly sets this gym apart is their expert team of trainers. The
-                trainers are knowledgeable, approachable, and genuinely invested in
-                helping members achieve their fitness goals. They take the time to
-                understand individual needs and create personalized workout plans,
-                ensuring maximum results and safety.
-              </p>
-              <div class="review__rating">
-          -->
-              <!--
-        Company</h4>
-        Business
-        Franchise
-        Partnership
-        Network-->
-      
-      </body>
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <h3>Personal Training</h3>
+        <p>Customized workout plans and one-on-one coaching.</p>
+      </div>
+      <div class="service">
+        <h3>Group Classes</h3>
+        <p>Yoga, Zumba, HIIT, and more to keep you motivated.</p>
+      </div>
+      <div class="service">
+        <h3>State-of-the-Art Equipment</h3>
+        <p>Top-quality machines to ensure a premium workout experience.</p>
+      </div>
+      <div class="service">
+        <h3>Diet Consultation</h3>
+        <p>Professional advice to match your workout with the right nutrition.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <h2>What Our Members Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <p>"Joining FITNESS FREAK GYM changed my life! The trainers are amazing and the environment is so supportive."</p>
+        <h4>- Sara.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The group classes are so much fun and keep me coming back for more! Highly recommend."</p>
+        <h4>- Akshay Kumar</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The diet consultation and training plans helped me achieve my goals faster than I expected."</p>
+        <h4>- John Doe</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans" class="plans-section">
+    <h2>Membership Plans</h2>
+    <div class="plans-container">
+      <a href="weekly-plan.html" target="_blank" class="plan-box">
+        <h3>Weekly Plan</h3>
+        <p>Price: $15/week</p>
+        <p>Access to all gym facilities and group classes for 7 days.</p>
+      </a>
+      <a href="monthly-plan.html" target="_blank" class="plan-box">
+        <h3>Monthly Plan</h3>
+        <p>Price: $50/month</p>
+        <p>Includes unlimited access to gym facilities, group classes, and one personal training session.</p>
+      </a>
+      <a href="yearly-plan.html" target="_blank" class="plan-box">
+        <h3>Yearly Plan</h3>
+        <p>Price: $500/year</p>
+        <p>Full access to all facilities, unlimited group classes, and 12 personal training sessions.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="trainers" class="trainers-section">
+    <h2>Meet Our Trainers</h2>
+    <div class="trainers-container">
+      <div class="trainer">
+        <img src="https://images.unsplash.com/photo-1532384555668-bc0c32a17ffd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trainer 1" style="height: 100px;">
+        <h3>Alex Johnson</h3>
+        <p>Expert in Strength Training and Cardio.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trainer 2" style="height: 100px;">
+        <h3>Maria Lee</h3>
+        <p>Certified Yoga and Zumba Instructor.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://images.unsplash.com/photo-1585892478726-d26363dbf9e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trainer 3" style="height: 100px;" >
+        <h3>David Smith</h3>
+        <p>Nutrition Specialist and Personal Coach.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer-section">
+    <h2>Contact Us</h2>
+    <p>Email: info@FITNESSFREAKGYM.com | Phone: (123) XXX-7890</p>
+    <div class="social-media">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+</body>
 </html>
